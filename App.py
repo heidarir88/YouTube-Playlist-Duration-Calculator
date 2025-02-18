@@ -92,7 +92,7 @@ def extract_playlist_id(url: str) -> str:
             return query_params['list'][0]
     raise ValueError("Invalid YouTube playlist URL")
 
-API_KEY = 'AIzaSyCZrfvAEqhnKaPrlwa5kVy5Axg5PrXo0zw'
+API_KEY = 'Enter Your API_KEY'
 analyzer = YouTubePlaylistAnalyzer(API_KEY)
 
 @app.route('/', methods=['GET', 'POST'])
